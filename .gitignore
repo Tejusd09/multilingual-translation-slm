@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Training / runs
+wandb/
+mt5-translation-model/runs/
+
+# Optional: training data backups (keep training_data.csv if you want to commit it)
+training_data/training_data_backup_*.csv
+training_data/training_data_part_*.csv
+
+# Not used in this project
+generate_dummy_data.py
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
